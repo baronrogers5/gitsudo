@@ -1,8 +1,8 @@
+# initial setup
 git config --global user.name "user_name"
-
 git config --global user.email "email_id"
 
-for folder 
+# for folder 
 git init Mytest
 cd Mytest 
 
@@ -18,6 +18,16 @@ git push origin master
 
 and for getting 
 git clone httpslink
+
+# other way is .. don't copy quotation marks 
+git clone "httpslink"
+cd repository
+git add filename
+git commit -m "message"
+
+git push origin master
+
+
 
 
 
